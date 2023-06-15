@@ -1,0 +1,111 @@
+div.head{
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    color: white
+}
+div.rules{
+    border-bottom: 2px solid rgb(162, 162, 162);
+    
+}
+div.top{
+    border-bottom: 2px solid rgb(155, 146, 146);
+    margin-left: 15px;
+}
+div.landing{
+    width: 50%;
+    height: 480px;
+    border: 2px ;
+    position: absolute;
+    top: 24%;
+    left: 28%;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 25px 0;
+}
+.start-quiz{
+   width: 200px;
+   height: 60px;
+   border: 2px  white;
+   background-color: lightblue;
+   margin-left: 280px;
+   margin-top: 35px;
+   font-size: 24px;
+   border-radius: 15px 0;
+   cursor: pointer;
+}
+.start-quiz a{
+    text-decoration: none;
+    color: white;
+}
+.start-quiz:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:400px) {
+    div.head{
+        border-bottom: 0.5px solid white;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+    div.top{
+        font-size: 12px;
+    }
+    div.landing{
+        width: 84%;
+        height: auto;
+        border: 2px ;
+        position: absolute;
+        top: 25%;
+        left: 6%;
+        padding: 10px;
+        background-color: white;
+        font-size: 15px;
+        border-radius: 25px 0;
+    }
+    .start-quiz{
+        width: 120px;
+        height: 40px;
+        border: 2px  white;
+        background-color: lightblue;
+        margin-left: 100px;
+        margin-top: 5px;
+        font-size: 13px;
+        border-radius: 8px 0;
+        cursor: pointer;
+     }
+    
+}
+@media (min-width:401px) and (max-width:800px) {
+   
+    div.landing{
+        width: 70%;
+        height: auto;
+        border: 2px ;
+        position: absolute;
+        top: 24%;
+        left: 13%;
+        padding: 10px;
+        background-color: white;
+        font-size: 18px;
+        border-radius: 25px 0;
+    }
+    div.top{
+        font-size: 18px;
+    }
+    div.rules{
+        font-size: 18px;
+        
+    }
+    .start-quiz{
+        width: 150px;
+        height: 60px;
+        border: 2px  white;
+        background-color: lightblue;
+        margin-left: 180px;
+        margin-top: 15px;
+        font-size: 18px;
+        border-radius: 15px 0;
+        cursor: pointer;
+     }
+}
